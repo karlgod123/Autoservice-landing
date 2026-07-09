@@ -7,30 +7,63 @@
     <title>Автосервис</title>
 </head>
 <body>
-    <div class="wrapper">
-        <header class="container">
-            <span class="logo_upper"><h1>АвтоПрофи</h1></span>
-            <nav>
-                <ul>
-                    <li class="active"><a href="#services">Услуги</a></li>
-                    <li><a href="#prices">Цены</a></li>
-                    <li><a href="#process">Этапы</a></li>
-                    <li><a href="#reviews">Отзывы</a></li>
-                    <li class="btn"><a href="#contacts">Контакты</a></li>
-                </ul>
-            </nav>
-        </header>
-    
+    <header class="header">
+  <div class="container header__inner">
+    <a href="#" class="logo">
+      <span class="logo__white">Авто</span><span class="logo__yellow">Профи</span>
+    </a>
 
-        <div class="hero-container">
-            <div class="hero--info">
-                <h1 class="upper">Ремонт и обуслуживание автомобилей без лишней переплаты</h1>
-                <h2 class="lower">Профессиональная диагностика, замена масла, ремонт ходовой и тормозной системы. Честные цены и гарантия на все работы</h2>
-                <button class="button" id="btn"><h3>Записаться на ремонт</h3></button>
-            </div>
-            
+    <nav class="nav" id="nav">
+      <a href="#services">Услуги</a>
+      <a href="#prices">Цены</a>
+      <a href="#process">Этапы</a>
+      <a href="#reviews">Отзывы</a>
+      <a href="#contacts">Контакты</a>
+    </nav>
+
+    <a href="#contacts" class="header__btn">Записаться</a>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="container hero__inner">
+    <div class="hero__content">
+      <h1 class="hero__title">
+        Ремонт и обслуживание<br />
+        автомобилей без лишней<br />
+        переплаты
+      </h1>
+
+      <p class="hero__text">
+        Профессиональная диагностика, замена масла,
+        ремонт ходовой и тормозной системы.
+        Честные цены и гарантия на все работы.
+      </p>
+
+      <div class="hero__buttons">
+        <a href="#contacts" class="btn btn--yellow">Записаться на ремонт</a>
+        <a href="#prices" class="btn btn--dark">Посмотреть цены</a>
+      </div>
+
+      <div class="hero__features">
+        <div class="hero__feature">
+          <strong>Опытные мастера</strong>
+          <span>Стаж от 7 лет</span>
         </div>
-    </div>   
+
+        <div class="hero__feature">
+          <strong>Гарантия на работы</strong>
+          <span>До 12 месяцев</span>
+        </div>
+
+        <div class="hero__feature">
+          <strong>Честные цены</strong>
+          <span>Без скрытых доплат</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
     <script src=""></script>
 </body>
 </html>
