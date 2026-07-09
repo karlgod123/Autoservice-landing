@@ -1,5 +1,5 @@
 body {
-    color: black;
+    color: rgb(0, 0, 0);
 }
 
 a {
@@ -11,7 +11,9 @@ img {
 }
 
 .wrapper {
-    background: whitesmoke;
+    background: rgb(3, 16, 94);
+    color: aliceblue;
+    
 }
 
 .container {
@@ -43,7 +45,7 @@ header nav ul li {
 }
 
 header nav ul li a {
-    color: black;
+    color: rgb(255, 255, 255);
 }
 
 header nav ul li.active::after {
@@ -68,4 +70,35 @@ header nav ul li.btn a {
 
 header nav ul li.btn a:hover {
     background: red;
+}
+
+.hero-container {
+    width: 100%;
+  min-height: 620px;
+  background:
+    linear-gradient(
+      rgba(17, 24, 39, 0.75),
+      rgba(17, 24, 39, 0.75)
+    ),
+    url("./dfg/ba2d98ab-057f-4a40-b8f3-7c93551a8525.png");
+
+  background-size: cover;
+  background-position: center right;
+  background-repeat: no-repeat;
+
+  color: white;
+  display: flex;
+  align-items:flex-start;
+}
+
+/* Временное решение с текстом */
+.hero--info {
+    width: 20%;
+}
+
+.button {
+    border-radius: 6px;
+    width: 300px;
+    padding: 3px;
+    background: rgb(255, 217, 0);
 }
